@@ -148,7 +148,6 @@ TOOLS_TO_DOWNLOAD=(
     "LECmd"
     "MFTECmd"
     "MFTExplorer"
-    "PECmd"
     "RBCmd"
     "RecentFileCacheParser"
     "RECmd"
@@ -159,9 +158,7 @@ TOOLS_TO_DOWNLOAD=(
     "ShellBagsExplorer"
     "SQLECmd"
     "SrumECmd"
-    "SumECmd"
     "TimelineExplorer"
-    "VSCMount"
     "WxTCmd"
 )
 
