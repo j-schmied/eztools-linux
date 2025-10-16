@@ -2,6 +2,44 @@
 
 > NOTE: I am not affiliated with Eric Zimmerman or his tools. This script is a simple wrapper to automate the installation of his tools. All credit for the tools goes to Eric Zimmerman and his team.
 
+### Compatibility
+
+| Tool                  | Platform Support               |
+| --------------------- | ------------------------------ |
+| AmcacheParser         | Native ✅                      |
+| AppCompatCacheParser  | Native ✅                      |
+| bstrings              | Native ✅                      |
+| EvtxECmd              | Native ✅                      |
+| EZViewer              | Partially Compatible (wine) ⚠️ |
+| Hasher                | No .NET 9 Binary ❌            |
+| JLECmd                | Native ✅                      |
+| JumpListExplorer      | Partially Compatible (wine) ⚠️ |
+| LECmd                 | Native ✅                      |
+| MFTECmd               | Native ✅                      |
+| MFTExplorer           | Partially Compatible (wine) ⚠️ |
+| PECmd                 | Incompatible ❌                |
+| RBCmd                 | Native ✅                      |
+| RecentFileCacheParser | Native ✅                      |
+| RECmd                 | Native ✅                      |
+| RegistryExplorer      | Partially Compatible (wine) ⚠️ |
+| RLA                   | Native ✅                      |
+| SDBExplorer           | Partially Compatible (wine) ⚠️ |
+| SBECmd                | Native ✅                      |
+| ShellBagsExplorer     | Partially Compatible (wine) ⚠️ |
+| SQLECmd               | Native ✅                      |
+| SrumECmd              | Native ✅                      |
+| SumECmd               | Incompatible ❌                |
+| TimelineExplorer      | Partially Compatible (wine) ⚠️ |
+| VSCMount              | Incompatible ❌                |
+| WxTCmd                | Native ✅                      |
+
+Tested on:
+
+- Linux (Ubuntu 24.04, x64)
+- macOS (Tahoe 26.0.1, arm)
+
+> NOTE: I was unable to succeed in getting the wine compatible tools to work in M-Series Macs. Feel free to submit a PR if you succeed!
+
 ### Overview
 
 This script automates downloading and installing Eric Zimmerman's forensic tools built for .NET 9 on Linux and macOS. Tools are installed under `/opt/eztools/<ToolName>` and require sudo privileges.
